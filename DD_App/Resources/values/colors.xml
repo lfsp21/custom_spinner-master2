@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="arrow">#c51162</color>
+  <color name="arrow3">#c53141</color>
+  <color name="spinner_base_color">#44000000</color>
+  <color name="base">#3498db</color>
+  <color name="error">#3498db</color>
+  <color name="highlight">#3498db</color>
+  <color name="hint">#3498db</color>
+  <color name="floatinglabel">#3498db</color>
+
+</resources>

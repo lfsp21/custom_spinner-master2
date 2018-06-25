@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Spinner Demo</string>
+    <string name="action_settings">Settings</string>
+  <string name="dd_title">Nombre del campo</string>
+  <string name="dd_hint">Selecciona una opción</string>
+  <string name="dd_errormsg">Now this is a very very very, VERY, VERY long error message to get scrolling or multiline animation when the error button is clicked</string>
+  <string-array name="spinner_items">
+    <item>Item no. 1</item>
+    <item>Item no. 2</item>
+    <item>Item no. 3</item>
+    <item>Item no. 4</item>
+    <item>Item no. 5</item>
+    <item>Item no. 6</item>
+    <item>Item no. 7</item>
+    <item>Item no. 8</item>
+    <item>Item no. 9</item>
+    <item>Item no. 10</item>
+    <item>Item no. 11</item>
+    <item>Item no. 12</item>
+    <item>Item no. 13</item>
+  </string-array>
+</resources>

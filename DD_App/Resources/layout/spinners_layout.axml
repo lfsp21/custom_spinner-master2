@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/spinner1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:ms_baseColor="@color/base"
+            app:ms_highlightColor="@color/highlight"
+            app:ms_arrowColor="@+color/arrow"
+            app:ms_floatingLabelColor="@+color/floatinglabel"
+            app:ms_floatingLabelText="@+string/dd_title"
+            app:ms_hint="@+string/dd_hint"
+            app:ms_arrowSize="16dp"
+            app:ms_multiline="true"
+            android:padding="6dp" />
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/spinner2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:ms_enableFloatingLabel="false"
+            app:ms_hint="hint" />
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/spinner3"
+            android:layout_width="fill_parent"
+            app:ms_arrowColor="@+color/arrow3"
+            android:layout_height="wrap_content" />
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/spinner4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:ms_alignLabels="false"
+            app:ms_baseColor="@color/spinner_base_color"
+            app:ms_multiline="false" />
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/spinner5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnShowError"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Show/hide error" />
+    </LinearLayout>
+</ScrollView>
